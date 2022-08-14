@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background:linear-gradient(to right, #085f4f, #013406);
+}
+.body{
+ 
+    border-radius: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    width: 20%;
+    height: 50%;
+    box-shadow: 4px 4px 4px 4px rgb(49, 47, 47);
+}
+.body--header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 160, 120);
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    color: white;
+    padding: 1.2rem;
+}
+.body--header--p
+{
+    font-size: 15px;
+}
+.body--mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid rgb(188, 176, 176);
+    color: rgb(18, 18, 18);
+    padding: 1.8rem;
+    font-size: 17px;
+}
+.body--dollar
+{
+    display: flex;
+    align-items: center;
+}
+.body--dollar--h1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.body--dollar--p{
+    font-size:19px;
+    display: flex;
+    justify-content: center;
+    margin: .1rem 0rem 2rem 0rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(40, 160, 120);
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(49, 47, 47);
+}
+.body--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 0 0 2rem 2rem;
+    color: rgb(18, 18, 18);
+    padding: 1.8rem;
+    font-size: 17px;
+}
+.box2{
+    height: 30rem;
+    display: flex;
+    font-size: 3rem;
+ 
+}
